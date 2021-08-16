@@ -1,3 +1,29 @@
+@font-face {
+  font-family: CoD;
+  src: url("./CallOfOpsDuty.ttf");
+}
+
+body {
+  font-family: "CoD", "Impact", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #528a63;
+  font-size: 3rem;
+}
 .hidden {
-  display: hidden;
+  display: none;
+}
+
+#loading {
+  width: 4rem;
+  animation: rotation 1.5s infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
 }

@@ -5,12 +5,14 @@
             Should I play Warzone?
         </title>
         <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
         <h1>Should I play Warzone?</h1>
         <div aria-live="polite">
-            <img id="loading" alt="Loading, please wait" src="./spinner-solid.svg"/>
+            <object id="loading" type="image/svg+xml" data="./spinner-solid.svg" class="logo">Loading, please wait</object>
             <p class="hidden yes">Yes.</p>
             <p class="hidden no">No.</p>
         </div>

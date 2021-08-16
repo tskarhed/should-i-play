@@ -6,6 +6,6 @@ const loader = document.querySelector("#loading");
 
 setTimeout(function (){
     loader.classList.add("hidden");
-    const answerEl = docuemnt.querySelector(`.${yesOrNo()}`);
+    const answerEl = document.querySelector(`.${yesOrNo()}`);
     answerEl.classList.remove("hidden")
-}, 2000)
+}, 4000)
