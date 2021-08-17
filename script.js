@@ -1,5 +1,5 @@
 function yesOrNo() {
-    return Math.random() < 0.8 ? "yes" : "no";
+    return Math.random() < 0.95 ? "yes" : "no";
 }
 
 const loader = document.querySelector("#loading");
