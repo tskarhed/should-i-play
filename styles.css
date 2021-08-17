@@ -9,6 +9,7 @@ body {
   color: white;
   background-color: #528a63;
   font-size: 3rem;
+  font-weight: normal;
 }
 .hidden {
   display: none;
